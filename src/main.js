@@ -7,7 +7,7 @@ import Contacts from "./components/Contacts.vue";
 import Projects from "./components/Projects.vue";
 
 const router = createRouter({
-  base: "/home",
+  base: "/portfolio/",
   history: createWebHistory(),
   routes: [
     {
