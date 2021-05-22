@@ -8,6 +8,7 @@ import Projects from "./components/Projects.vue";
 
 const router = createRouter({
   base: "/portfolio/",
+  mode: "hash",
   history: createWebHistory("/portfolio/"),
   routes: [
     {
