@@ -1,5 +1,6 @@
 import { createApp } from "vue";
-import { createRouter, createWebHistory } from "vue-router";
+//import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory } from "vue-router";
 
 import App from "./App.vue";
 import Home from "./components/Home.vue";
@@ -9,7 +10,8 @@ import Projects from "./components/Projects.vue";
 const router = createRouter({
   base: "/portfolio/",
   mode: "hash",
-  history: createWebHistory("/portfolio/"),
+  //history: createWebHistory("/portfolio/"),
+  history: createWebHashHistory("/portfolio/"),
   routes: [
     {
       path: "/contacts",
