@@ -1,0 +1,35 @@
+import { createApp } from "vue";
+import { createRouter, createWebHistory } from "vue-router";
+
+import App from "./App.vue";
+import Home from "./components/Home.vue";
+import Contacts from "./components/Contacts.vue";
+import Projects from "./components/Projects.vue";
+
+const router = createRouter({
+  base: "/home",
+  history: createWebHistory(),
+  routes: [
+    {
+      path: "/contacts",
+      component: Contacts,
+    },
+    {
+      path: "/projects",
+      component: Projects,
+      props: true,
+    },
+    {
+      path: "/home",
+      component: Home,
+    },
+    {
+      path: "/",
+      redirect: "/home",
+    },
+  ],
+});
+
+const app = createApp(App);
+app.use(router);
+app.mount("#app");
