@@ -8,7 +8,7 @@
         show my projects.
       </p>
     </div>
-    <img alt="sreenshot of the site" src="../img/main-min.jpg" />
+    <img alt="portrait" src="../img/main-min.jpg" />
   </div>
 </template>
 
@@ -37,8 +37,8 @@ p {
 
 .intro:before {
   position: absolute;
-  content: '';
-  background-image: url('../img/wave2.svg');
+  content: "";
+  background-image: url("../img/wave2.svg");
   background-repeat: no-repeat;
   width: 100%;
   height: 320px;
