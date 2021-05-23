@@ -10,7 +10,11 @@
           :class="{ 'nav-toggle--close': isNavVisible }"
         ></button>
       </div>
-      <ul class="menu" :class="{ 'class-open': isNavVisible }">
+      <ul
+        v-on:click="closeTheNav"
+        class="menu"
+        :class="{ 'class-open': isNavVisible }"
+      >
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/projects">Projects</router-link></li>
         <li><router-link to="/contacts">Contacts</router-link></li>
@@ -28,6 +32,9 @@ export default {
   },
   methods: {
     openTheNav() {
+      this.isNavVisible = !this.isNavVisible;
+    },
+    closeTheNav() {
       this.isNavVisible = !this.isNavVisible;
     },
   },
