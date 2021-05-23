@@ -23,13 +23,15 @@ export default {
           name: "Frontend developer portfolio ",
           tech: "CSS, Vue.js, Vue CLI, Vue Router",
           img: require("../img/portfolio.jpg"),
+          site: "https://evnayd.github.io/portfolio",
+          github: "https://github.com/evnayd/portfolio",
         },
         {
           id: "02",
           name: "Recipe app",
           tech: "HTML, CSS, Vue.js, Vue CLI, fetch API",
           img: require("../img/recipes_screen.jpg"),
-          github: "https://github.com/evnayd/Recipesapp/tree/master",
+          github: "https://github.com/evnayd/Recipesapp",
           site: "https://evnayd.github.io/Recipesapp/",
         },
         {
