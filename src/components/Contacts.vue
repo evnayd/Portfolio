@@ -49,15 +49,16 @@ p {
 }
 
 .contact-item {
-  background-color: #6b9abe;
   margin-bottom: 10px;
-  cursor: pointer;
 }
 
 a {
   color: #fff;
   display: inline-block;
   padding: 10px;
+  background-color: #6b9abe;
+  width: 100%;
+  cursor: pointer;
 }
 
 .contact-item:hover {
