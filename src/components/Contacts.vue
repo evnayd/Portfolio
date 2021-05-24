@@ -17,6 +17,9 @@
             >LinkedIn</a
           >
         </li>
+        <li class="contact-item">
+          <a href="https://www.facebook.com/jane.tikhonova/">Facebook</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -61,7 +64,7 @@ a {
   cursor: pointer;
 }
 
-.contact-item:hover {
+a:hover {
   background-color: #266392;
 }
 

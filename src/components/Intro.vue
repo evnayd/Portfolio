@@ -66,6 +66,7 @@ p {
     line-height: 40px;
     max-width: 400px;
     z-index: 230;
+    padding-right: 5px;
   }
 
   img {
