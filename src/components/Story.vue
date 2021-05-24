@@ -3,17 +3,17 @@
     <div class="story-text">
       <h2>My story:</h2>
       <p>
-        My developer story began in 2019. That was when I first opened a code
-        editor. Until that moment, my life had nothing to do with IT, and even
-        in my wildest dreams I could not imagine myself as a developer. But
-        sometimes life comes with surprises. <br />Before my studying began, I
-        had a lot of doubts. Can a woman be a programmer? Can a person become a
-        programmer not being a brilliant mathematician? Is it possible to become
-        a front-end developer after 30? I read many articles on this topic and
-        they all answered my questions: yes, yes and yes. I want to thank all
-        the authors of these articles. They gave me strength initially. Now I
-        know from experience that everything is possible if you work hard and
-        don't give up.
+        My developer story began in 2019. It was a moment when I opened the code
+        editor for the first time. This journey is one of the hardest in life,
+        but also the most exciting one. Studying was hard for me at the
+        beginning. But now I see that this is totally ok, everyone goes through
+        it. The main thing is to be persistent and to not give up.
+      </p>
+      <p>
+        Sometimes people think programming is boring. But I disagree. I see a
+        lot of creativity in the frontend. I really love it because, after
+        writing a line of code, you immediately see the result of your work on
+        the screen. I think, It's really great and fun!
       </p>
     </div>
     <div class="story-img">
@@ -34,8 +34,8 @@
 
 .story:before {
   position: absolute;
-  content: '';
-  background-image: url('../img/wave1.svg');
+  content: "";
+  background-image: url("../img/wave1.svg");
   background-repeat: no-repeat;
   width: 100%;
   height: 250px;
@@ -47,8 +47,8 @@
 
 .story:after {
   position: absolute;
-  content: '';
-  background-image: url('../img/pink_pic.svg');
+  content: "";
+  background-image: url("../img/pink_pic.svg");
   background-repeat: no-repeat;
   width: 150px;
   height: 250px;
