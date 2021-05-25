@@ -1,7 +1,7 @@
 <template>
   <div class="project-item">
     <div class="project-img">
-      <img :src="project.img" alt="sreenshot of the site" />
+      <img :src="project.img" alt="sreenshot of the site" height="500" />
     </div>
     <div class="project-info">
       <h3 class="project-details project-name">{{ project.name }}</h3>
@@ -86,6 +86,10 @@ export default {
 }
 
 @media (min-width: 798px) {
+  .project-img img {
+    width: 100%;
+    min-height: 420px;
+  }
   .project-item {
     width: 500px;
     padding: 40px;
