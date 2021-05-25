@@ -8,7 +8,7 @@
         show my projects.
       </p>
     </div>
-    <img alt="portrait" src="../img/main-min.jpg" height="500" />
+    <img alt="portrait" src="../img/main-min.jpg" />
   </div>
 </template>
 
