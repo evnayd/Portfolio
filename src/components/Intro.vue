@@ -8,7 +8,7 @@
         show my projects.
       </p>
     </div>
-    <img alt="portrait" src="../img/main-min.jpg" />
+    <img alt="portrait" src="../img/main-min.jpg" height="500" />
   </div>
 </template>
 
@@ -25,6 +25,7 @@ h2 {
 
 img {
   width: 100%;
+  height: auto;
   border: 20px solid #f7ca4a;
 }
 
