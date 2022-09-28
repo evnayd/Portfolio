@@ -1,7 +1,7 @@
 <template>
   <div class="project-item">
     <div class="project-img">
-      <img :src="project.img" alt="sreenshot of the site" height="500" />
+      <img :src="project.img" alt="sreenshot of the site"  /><!---height="500"-->
     </div>
     <div class="project-info">
       <h3 class="project-details project-name">{{ project.name }}</h3>
@@ -43,11 +43,12 @@ export default {
 
 .project-details {
   position: absolute;
-  background-color: #f7ca4a;
+  background-color: #6b9abe;
   padding: 10px;
   z-index: 200;
   text-align: left;
   transition: 0.5s linear;
+  color: #fff;
 }
 
 .project-name {
@@ -67,7 +68,7 @@ export default {
   width: 100%;
   height: auto;
   margin-left: 0;
-  opacity: 0.3;
+  opacity: 0.1;
   transition: 0.3s linear;
 }
 
@@ -95,6 +96,7 @@ export default {
     padding: 40px;
     margin: 30px;
     margin-top: 0;
+    margin-bottom: 80px;
   }
 
   .project-item:hover .project-img img {

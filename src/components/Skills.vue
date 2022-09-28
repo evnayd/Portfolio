@@ -8,11 +8,12 @@
           methodology.
         </li>
         <li>
-          CSS3. I really enjoy creating layouts and components. I also use SCSS,
+          CSS3. I really enjoy creating layouts. I also use SCSS,
           Sass, Less and Talwind CSS.
         </li>
         <li>
-          JavaScript and Vue.js. Now I study Vue.js ecosystem.
+          JavaScript, Vue.js. On my current position I work with Vue.
+           In my spare time I study React.
         </li>
         <li>Gulp, Webpack.</li>
         <li>Git - for the version control.</li>
@@ -50,7 +51,7 @@ li {
   padding-right: 20px;
 }
 
-.skills:after {
+/*.skills:after {
   position: absolute;
   content: '';
   background-image: url('../img/wave2.svg');
@@ -61,7 +62,7 @@ li {
   left: 0px;
   bottom: -30px;
   z-index: -10;
-}
+}*/
 
 .skills-img {
   width: 100%;

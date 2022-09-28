@@ -18,8 +18,31 @@ export default {
   data() {
     return {
       projects: [
+      {
+          //id: "01",
+          name: "Website for Event Center in Australia",
+          tech: "HTML, CSS, TailwindCSS, Java Script, Jekyll",
+          img: require("../img/eventcenter.jpg"),
+          site: "https://www.lkhevents.com.au/"
+        },
         {
-          id: "01",
+          //id: "02",
+          name: "Long Distance Moving Soft",
+          tech: "CSS, TailwindCSS, Vue.js, Laravel on backend",
+          img: require("../img/10.jpg"),
+          //site: "https://evnayd.github.io/portfolio",
+          //github: "https://github.com/evnayd/portfolio",
+        },
+        {
+          //id: "03",
+          name: "Ecommerce project for studying purposes",
+          tech: "CSS, TailwindCSS, React.js",
+          img: require("../img/reactshop.jpg"),
+          site: "https://6332f2cd83d7ed37cb895fc9--clinquant-boba-fc5a2e.netlify.app",
+          github: "https://github.com/evnayd/React-shop-app",
+        },
+        {
+          id: "04",
           name: "Frontend developer portfolio ",
           tech: "CSS, Vue.js, Vue CLI, Vue Router",
           img: require("../img/portfolio.jpg"),
@@ -27,7 +50,7 @@ export default {
           github: "https://github.com/evnayd/portfolio",
         },
         {
-          id: "02",
+          //id: "05",
           name: "Recipe app",
           tech: "HTML, CSS, Vue.js, Vue CLI, fetch API",
           img: require("../img/recipes_screen.jpg"),
@@ -35,7 +58,7 @@ export default {
           site: "https://evnayd.github.io/Recipesapp/",
         },
         {
-          id: "03",
+          //id: "06",
           name: "Films & cartoons app",
           tech: "HTML, SCSS, JavaScript",
           img: require("../img/films_screen.jpg"),
@@ -43,23 +66,23 @@ export default {
           site: "https://evnayd.github.io/familyfilms/",
         },
         {
-          id: "04",
+          //id: "07",
           name: "Booking the apartment app",
           tech: "HTML, CSS, JavaScript, AJAX",
           img: require("../img/keksobooking_screen.jpg"),
           github: "https://github.com/evnayd/1033021-keksobooking-20",
           site: "https://github.com/evnayd",
         },
-        {
+        /*{
           id: "05",
           name: "Password validation component",
           tech: "Svelte, Tailwind CSS",
           img: require("../img/svelte_screen.jpg"),
           github: "https://github.com/evnayd/Svelte-study",
           site: "https://github.com/evnayd",
-        },
+        },*/
         {
-          id: "06",
+          //id: "08",
           name: "Сatalog of sports nutrition for cats ",
           tech: "HTML, SCSS, JavaScript",
           img: require("../img/cat_screen.jpg"),
@@ -67,7 +90,7 @@ export default {
           site: "https://evnayd.github.io/Energy/",
         },
         {
-          id: "07",
+          //id: "09",
           name: "To-do list",
           tech: "HTML, CSS, CSS-animation, JavaScript",
           img: require("../img/todo_screen.jpg"),
@@ -90,7 +113,7 @@ export default {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 15px;
+    padding-top: 80px;
   }
 }
 </style>

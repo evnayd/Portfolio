@@ -42,9 +42,9 @@ p {
   background-image: url("../img/wave2.svg");
   background-repeat: no-repeat;
   width: 100%;
-  height: 320px;
+  height: 350px;
   left: 0px;
-  bottom: -4px;
+  bottom: -1px;
   z-index: -10;
   background-size: cover;
 }
@@ -54,7 +54,7 @@ p {
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
-    padding-right: 0;
+    padding-right: 50px;
     padding-top: 15px;
   }
 
@@ -71,7 +71,7 @@ p {
   }
 
   img {
-    width: 60%;
+    width: 30%;
     height: auto;
     border: 20px solid #f7ca4a;
   }

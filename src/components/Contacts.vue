@@ -68,7 +68,7 @@ a:hover {
   background-color: #266392;
 }
 
-.contact:after {
+/*.contact:after {
   position: absolute;
   content: "";
   background-image: url("../img/orange_pic.svg");
@@ -81,21 +81,8 @@ a:hover {
   opacity: 0.5;
   z-index: -10;
   transform: rotate(180deg);
-}
+}*/
 
-.contact:before {
-  position: absolute;
-  content: "";
-  background-image: url("../img/yellow_pic.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 150px;
-  height: 300px;
-  top: 190px;
-  right: 0;
-  z-index: -10;
-  opacity: 0.5;
-}
 
 @media (min-width: 1024px) {
   p {
