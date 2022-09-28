@@ -71,7 +71,7 @@ p {
   }
 
   img {
-    width: 30%;
+    width: 500px;
     height: auto;
     border: 20px solid #f7ca4a;
   }

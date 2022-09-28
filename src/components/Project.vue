@@ -68,7 +68,7 @@ export default {
   width: 100%;
   height: auto;
   margin-left: 0;
-  opacity: 0.1;
+  opacity: 0.3;
   transition: 0.3s linear;
 }
 
