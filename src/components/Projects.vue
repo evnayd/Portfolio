@@ -19,22 +19,17 @@ export default {
     return {
       projects: [
       {
-          //id: "01",
           name: "Website for Event Center in Australia",
           tech: "HTML, CSS, TailwindCSS, Java Script, Jekyll",
           img: require("../img/eventcenter.jpg"),
           site: "https://www.lkhevents.com.au/"
         },
         {
-          //id: "02",
           name: "Long Distance Moving Soft",
           tech: "CSS, TailwindCSS, Vue.js, Laravel on backend",
-          img: require("../img/10.jpg"),
-          //site: "https://evnayd.github.io/portfolio",
-          //github: "https://github.com/evnayd/portfolio",
+          img: require("../img/longdistance.jpg"),
         },
         {
-          //id: "03",
           name: "Ecommerce project for studying purposes",
           tech: "CSS, TailwindCSS, React.js",
           img: require("../img/reactshop.jpg"),
@@ -50,7 +45,6 @@ export default {
           github: "https://github.com/evnayd/portfolio",
         },
         {
-          //id: "05",
           name: "Recipe app",
           tech: "HTML, CSS, Vue.js, Vue CLI, fetch API",
           img: require("../img/recipes_screen.jpg"),
@@ -58,7 +52,6 @@ export default {
           site: "https://evnayd.github.io/Recipesapp/",
         },
         {
-          //id: "06",
           name: "Films & cartoons app",
           tech: "HTML, SCSS, JavaScript",
           img: require("../img/films_screen.jpg"),
@@ -66,23 +59,13 @@ export default {
           site: "https://evnayd.github.io/familyfilms/",
         },
         {
-          //id: "07",
           name: "Booking the apartment app",
           tech: "HTML, CSS, JavaScript, AJAX",
           img: require("../img/keksobooking_screen.jpg"),
           github: "https://github.com/evnayd/1033021-keksobooking-20",
           site: "https://github.com/evnayd",
         },
-        /*{
-          id: "05",
-          name: "Password validation component",
-          tech: "Svelte, Tailwind CSS",
-          img: require("../img/svelte_screen.jpg"),
-          github: "https://github.com/evnayd/Svelte-study",
-          site: "https://github.com/evnayd",
-        },*/
         {
-          //id: "08",
           name: "Сatalog of sports nutrition for cats ",
           tech: "HTML, SCSS, JavaScript",
           img: require("../img/cat_screen.jpg"),
@@ -90,7 +73,6 @@ export default {
           site: "https://evnayd.github.io/Energy/",
         },
         {
-          //id: "09",
           name: "To-do list",
           tech: "HTML, CSS, CSS-animation, JavaScript",
           img: require("../img/todo_screen.jpg"),
