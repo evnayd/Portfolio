@@ -33,34 +33,6 @@
   z-index: 20;
 }
 
-/*.story:before {
-  position: absolute;
-  content: "";
-  background-image: url("../img/wave1.svg");
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 280px;
-  left: 0px;
-  bottom: -4px;
-  z-index: 20;
-  background-size: cover;
-}*/
-
-/*.story:after {
-  position: absolute;
-  content: "";
-  background-image: url("../img/pink_pic.svg");
-  background-repeat: no-repeat;
-  width: 150px;
-  height: 250px;
-  left: 0px;
-  top: 140px;
-  background-size: cover;
-  transform: rotate(180deg);
-  z-index: 0;
-  opacity: 50%;
-}*/
-
 h2 {
   font-size: 26px;
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="project-item">
     <div class="project-img">
-      <img :src="project.img" alt="sreenshot of the site"  /><!---height="500"-->
+      <img :src="project.img" alt="sreenshot of the site"  />
     </div>
     <div class="project-info">
       <h3 class="project-details project-name">{{ project.name }}</h3>
@@ -94,9 +94,10 @@ export default {
   .project-item {
     width: 500px;
     padding: 40px;
-    margin: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-top: 0;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
   }
 
   .project-item:hover .project-img img {
