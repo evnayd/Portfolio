@@ -3,7 +3,7 @@
     <div>
       <h2>Hello!</h2>
       <p>
-        My name is Evgeniya. I am a self-taught front-end developer. Welcome to
+        My name is Evgeniya. I am a front-end developer. Welcome to
         my portfolio site! Here I would like to tell a little about myself, and
         show my projects.
       </p>

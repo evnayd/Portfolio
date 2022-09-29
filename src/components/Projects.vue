@@ -1,11 +1,14 @@
 <template>
-  <div class="wrapper" :projects="projects">
+  <div :projects="projects" class="container">
+    <h1>Here you can see some of my projects:</h1>
+    <div  class="wrapper">
     <project
       v-for="project in projects"
       :key="project.id"
       v-bind:project="project"
     ></project>
   </div>
+</div>
 </template>
 
 <script>
@@ -86,9 +89,11 @@ export default {
 </script>
 
 <style scoped>
-.wrapper {
+
+.container {
   padding: 20px;
 }
+
 
 @media (min-width: 1024px) {
   .wrapper {

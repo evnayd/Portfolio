@@ -3,22 +3,17 @@
     <div class="story-text">
       <h2>My story:</h2>
       <p>
-        My developer story began in 2019, the moment I opened the code editor
-        for the first time. This journey has been one of the hardest in my life
-        so far, but also one of the most exciting. Studying was difficult for me
-        at the beginning. But now I know that is totally normal…everyone goes
-        through that when they start something new. The main thing is to be
-        persistent and never give up.
+        My developer's story began in 2019, the moment I opened the code editor
+        for the first time. 
+        In August 2021 I found my first job as a frontend-developer. 
+        Here I got the opportunity to work with other front-end and back-end developers, to build few websites from scratch, to work on big project, to implement new components, and to learn a lot of new things.
+        <br>I like front-end because it's the mix of design and technologies. 
       </p>
       <p>
-        Some people think programming is boring. But I disagree. I see a lot of
-        creativity in frontend. I really love it because, after writing a line
-        of code, you immediately see the result of your work on the screen. I
-        think It's really interesting and fun!
       </p>
     </div>
     <div class="story-img">
-      <img alt="sreenshot of the site" src="../img/laptop.jpg" />
+      <img alt="sreenshot of the si te" src="../img/laptop.jpg" />
     </div>
   </div>
 </template>

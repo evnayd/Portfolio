@@ -3,21 +3,23 @@
     <div class="skills-text">
       <h2>My skills:</h2>
       <ul>
+        <li><p class="tech">JavaScript ES6.</p> </li>
+        <li><b>Vue.js.</b> The core framework I use on my current position.
+          I build and implement new components and work with legacy code.</li>
+        <li><b>React.js.</b> Framework I'm currently studying. I built few pet projects with React.js</li>
         <li>
-          HTML5. I try to write valid and semantic mark-up and prefer to use BEM
-          methodology.
+          <b>HTML5. </b> Valid and semantic mark-up and BEM methodology.
         </li>
         <li>
-          CSS3. I really enjoy creating layouts. I also use SCSS,
+          <b>CSS3. </b>
+          I really enjoy creating layouts. I also use SCSS,
           Sass, Less and Talwind CSS.
         </li>
-        <li>
-          JavaScript, Vue.js. On my current position I work with Vue.
-           In my spare time I study React.
-        </li>
-        <li>Gulp, Webpack.</li>
-        <li>Git - for the version control.</li>
-        <li>English, Russian and Serbian - for the communication.</li>
+        <li> <b>Jekyll.</b></li>
+        <li><b>No code technologies.</b> I created few websites with Webflow.</li>
+        <li><b>Gulp, Webpack.</b></li>
+        <li><b>Git.</b></li>
+        <li><b>Languages: Russian (native), English (fluent), Serbian (fluent).</b></li>
       </ul>
       <p></p>
     </div>
@@ -45,24 +47,16 @@ li {
   margin-bottom: 15px;
 }
 
+.tech {
+ font-weight: 900;
+}
+
 .skills {
   position: relative;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-/*.skills:after {
-  position: absolute;
-  content: '';
-  background-image: url('../img/wave2.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 300px;
-  left: 0px;
-  bottom: -30px;
-  z-index: -10;
-}*/
 
 .skills-img {
   width: 100%;
@@ -94,6 +88,20 @@ li {
     padding-right: 0;
     padding-bottom: 70px;
   }
+
+  
+.skills:after {
+  position: absolute;
+  content: '';
+  background-image: url('../img/wave2.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  left: 0px;
+  bottom: 0px;
+  z-index: -10;
+}
 
   .skills-img {
     width: 50%;

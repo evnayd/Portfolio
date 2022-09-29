@@ -68,21 +68,6 @@ a:hover {
   background-color: #266392;
 }
 
-/*.contact:after {
-  position: absolute;
-  content: "";
-  background-image: url("../img/orange_pic.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 300px;
-  height: 600px;
-  bottom: 0;
-  left: 0;
-  opacity: 0.5;
-  z-index: -10;
-  transform: rotate(180deg);
-}*/
-
 
 @media (min-width: 1024px) {
   p {
