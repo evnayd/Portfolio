@@ -1,7 +1,7 @@
 <template>
   <div class="project-item">
     <div class="project-img">
-      <img :src="project.img" alt="sreenshot of the site"  />
+      <img :src="project.img" alt="sreenshot of the site" />
     </div>
     <div class="project-info">
       <h3 class="project-details project-name">{{ project.name }}</h3>
@@ -9,8 +9,10 @@
         {{ project.tech }}
       </p>
     </div>
-    <a class="project-btn " :href="project.site">See the site</a>
-    <a class="project-btn" :href="project.github">See the code</a>
+    <a target="_blank" class="project-btn" :href="project.site">See the site</a>
+    <a target="_blank" class="project-btn" :href="project.github"
+      >See the code</a
+    >
   </div>
 </template>
 
@@ -62,6 +64,10 @@ export default {
   left: 0px;
   margin: auto;
   font-size: 14px;
+}
+
+.project-img {
+  height: 500px;
 }
 
 .project-img img {

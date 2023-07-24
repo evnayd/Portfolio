@@ -1,14 +1,14 @@
 <template>
   <div :projects="projects" class="container">
     <h1>Here you can see some of my projects:</h1>
-    <div  class="wrapper">
-    <project
-      v-for="project in projects"
-      :key="project.id"
-      v-bind:project="project"
-    ></project>
+    <div class="wrapper">
+      <project
+        v-for="project in projects"
+        :key="project.id"
+        v-bind:project="project"
+      ></project>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -21,11 +21,25 @@ export default {
   data() {
     return {
       projects: [
-      {
-          name: "Website for Event Center in Australia",
-          tech: "HTML, CSS, TailwindCSS, Java Script, Jekyll",
+        {
+          name: "Tourist Organization of Zemun, Belgrade",
+          tech: "HTML, CSS, TailwindCSS, JavaScript, Jekyll, Tina CMS, Vercel",
+          img: require("../img/zemun.jpg"),
+          site: "https://www.turistickaorganizacijazemun.rs",
+          github: "https://github.com/tkzzemun/zemuncenter",
+        },
+        {
+          name: "Omnia Bistro & Bar in Australia",
+          tech: "HTML, CSS, TailwindCSS, JavaScript, Jekyll, Tina CMS, Vercel",
+          img: require("../img/omnia.jpg"),
+          site: "https://www.omniabistro.com.au",
+          github: "https://github.com/ultimatemovers/omnia",
+        },
+        {
+          name: "Event Center in Australia",
+          tech: "HTML, CSS, TailwindCSS, JavaScript, Jekyll",
           img: require("../img/eventcenter.jpg"),
-          site: "https://www.lkhevents.com.au/"
+          site: "https://www.lkhevents.com.au/",
         },
         {
           name: "Long Distance Moving Soft",
@@ -89,11 +103,9 @@ export default {
 </script>
 
 <style scoped>
-
 .container {
   padding: 20px;
 }
-
 
 @media (min-width: 1024px) {
   .wrapper {
