@@ -8,23 +8,23 @@
 </template>
 
 <script>
-import Navigation from './components/Navigation.vue';
-import TopButton from './components/TopButton.vue';
+import Navigation from "./components/Navigation.vue";
+import TopButton from "./components/TopButton.vue";
 
 export default {
   components: {
     Navigation,
-    TopButton
+    TopButton,
   },
 
   data() {
     return {
-      isTopButtonVisible: false
+      isTopButtonVisible: false,
     };
   },
   methods: {
     moveTop() {
-      document.body.scrollTop = 0; // For Safari
+      document.body.scrollTop = 0; //for safari
       document.documentElement.scrollTop = 0;
     },
     scrollFunction() {
@@ -36,12 +36,12 @@ export default {
       } else {
         this.isTopButtonVisible = false;
       }
-    }
+    },
   },
 
   mounted() {
-    window.addEventListener('scroll', this.scrollFunction);
-  }
+    window.addEventListener("scroll", this.scrollFunction);
+  },
 };
 </script>
 
@@ -51,7 +51,7 @@ export default {
 }
 
 html {
-  font-family: 'Nunito Sans', 'Helvetica', sans-serif;
+  font-family: "Nunito Sans", "Helvetica", sans-serif;
 }
 
 body {
