@@ -63,7 +63,7 @@ export default {
         },
         {
           name: "Recipe app",
-          tech: "HTML, CSS, Vue.js, Vue CLI, fetch API",
+          tech: "HTML, CSS, JavaScript, Vue.js, Vue CLI, fetch API",
           img: require("../img/recipes_screen.jpg"),
           github: "https://github.com/evnayd/Recipesapp",
           site: "https://evnayd.github.io/Recipesapp/",
