@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     moveTop() {
-      document.body.scrollTop = 0; //for safari
+      document.body.scrollTop = 0; //for Safari
       document.documentElement.scrollTop = 0;
     },
     scrollFunction() {
