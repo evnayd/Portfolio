@@ -4,13 +4,14 @@
       <h2>My story:</h2>
       <p>
         My developer's story began in 2019, the moment I opened the code editor
-        for the first time. 
-        In August 2021 I found my first job as a frontend-developer. 
-        Here I got the opportunity to work with other front-end and back-end developers, to build few websites from scratch, to work on big project, to implement new components, and to learn a lot of new things.
-        <br>I like front-end because it's the mix of design and technologies. 
+        for the first time. After that I found my first job as a
+        frontend-developer. There I've got the opportunity to work with other
+        front-end and back-end developers, to build few websites from scratch,
+        to work on big project, to implement new components, and to learn a lot
+        of new things.
+        <br />I like front-end because it's the mix of design and technologies.
       </p>
-      <p>
-      </p>
+      <p></p>
     </div>
     <div class="story-img">
       <img alt="sreenshot of the si te" src="../img/laptop.jpg" />
