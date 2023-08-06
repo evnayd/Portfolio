@@ -67,7 +67,7 @@ export default {
 }
 
 .project-img {
-  height: 500px;
+  max-height: 500px;
 }
 
 .project-img img {

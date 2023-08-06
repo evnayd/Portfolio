@@ -36,10 +36,24 @@ export default {
           github: "https://github.com/ultimatemovers/omnia",
         },
         {
+          name: "Flower shop",
+          tech: "Weblow",
+          img: require("../img/flowers.jpg"),
+          site: "https://palisadnik.webflow.io/",
+          github: "",
+        },
+        {
           name: "Event Center in Australia",
           tech: "HTML, CSS, TailwindCSS, JavaScript, Jekyll",
           img: require("../img/eventcenter.jpg"),
           site: "https://www.lkhevents.com.au/",
+        },
+        {
+          name: "Site for children hockey team (in progress)",
+          tech: "Weblow",
+          img: require("../img/hockey.jpg"),
+          site: "https://sport-f5172e.webflow.io/",
+          github: "",
         },
         {
           name: "Long Distance Moving Soft",
